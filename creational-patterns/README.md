@@ -38,3 +38,29 @@ Abstract Factory deve ser usado quando:
 ### Desvantagens
 
 - Dificulta adicionar novos tipos de objetos
+
+## Builder
+
+### Objetivo
+
+Suportar a construção de um objeto complexo da sua representação de modo
+que o mesmo processo de construção possa criar diferentes representações.
+
+### Aplicabilidade
+
+Builder deve ser usado quando:
+
+- o algoritmo para criação de um objeto complexo deve ser independente das
+  partes qye compõem o objeto e de como elas são montadas.
+- o processo de construção deve permitir diferentes representações para o
+  objeto que é construído.
+
+### Estrutura
+
+<img src="./assets/builder.png" alt="Estrutura do Builder" />
+
+### Vantagens
+
+- Permite variar a representação interna de um produto
+- Isola o código para construção e representação
+- Oferece um controle mais fino sobre o processo de construção
