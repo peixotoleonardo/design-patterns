@@ -14,6 +14,8 @@ especificar suas classes concretas.
 
 ### Aplicabilidade
 
+Abstract Factory deve ser usado quando:
+
 - um sistema deve ser independente de como seus objetos são criados, compostos ou representados;
 - um sistema deve ser configurado como um objeto de uma família de múltiplos objetos;
 - uma família de objetos for projetada para ser usada em conjunto, e você necessita garantir
